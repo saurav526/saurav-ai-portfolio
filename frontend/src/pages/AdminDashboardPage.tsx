@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import {
-  ArrowLeft,
-  CheckCircle2,
+import {ArrowLeft,CheckCircle2,
   Cpu,
   FolderKanban,
   Mail,
