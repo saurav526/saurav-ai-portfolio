@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-
+// "3D Tilt Card" component that provides an interactive 3D tilt effect with a dynamic specular spotlight glare, enhancing the visual appeal of the card content.
 interface Tilt3DCardProps {
   children: React.ReactNode;
   className?: string;
