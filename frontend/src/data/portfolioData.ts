@@ -805,3 +805,5 @@ export const FALLBACK_GITHUB_DATA: GitHubProfileData = {
     HTML: 1,
   },
 };
+
+// Portfolio data for the AI developer's portfolio website
