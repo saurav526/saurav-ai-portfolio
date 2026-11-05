@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import {
-  AlertTriangle,
+import {AlertTriangle,
   ArrowLeft,
   ArrowRight,
   ArrowUpRight,
