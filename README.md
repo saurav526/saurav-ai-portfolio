@@ -2,7 +2,7 @@
 
 > **"Engineering Intelligence. Building Systems That Think."**
 
-A production-ready, full-stack personal portfolio, AI engineering command dashboard, and interactive 3D technical showcase built for **Saurav Kumar** (*AI Engineer | Data Scientist | Machine Learning Engineer | Generative AI Developer*).
+A production-ready, full-stack personal portfolio, AI engineering command dashboard, and interactive 3D technical showcase built for **Saurav Kumar** (* Data Scientist | AI Engineer | Machine Learning Engineer | Generative AI Developer*).
 
 ---
 
