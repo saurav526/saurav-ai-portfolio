@@ -1,6 +1,5 @@
 // Post-build step: inlines the compiled JS + CSS bundle into dist/index.html.
 // Browsers (Chrome, Edge, Firefox) refuse to load external <script type="module">
-// files over file://, which left the page blank when index.html was opened
 // directly from disk. An inlined bundle works both from disk and from a server
 // (including deep links such as /projects/<slug>).
 import fs from 'node:fs';
