@@ -7,3 +7,8 @@ httpx>=0.27.0
 python-dotenv>=1.0.1
 pytest>=8.0.0
 psycopg[binary]>=3.1.18
+
+
+# # Additional dependencies for optional features
+# # Uncomment the following lines if you want to use these features
+# fastapi-mail>=1.0.0   
