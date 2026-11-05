@@ -1,7 +1,6 @@
 ﻿import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import {
-  ArrowRight,
+import {ArrowRight,
   Bot,
   BrainCircuit,
   Cpu,
@@ -24,8 +23,8 @@ interface HeroSectionProps {
 }
 
 const ROLES = [
-  'AI Engineer',
   'Data Scientist',
+  'AI Engineer',
   'Machine Learning Engineer',
   'Generative AI Developer',
   'Agentic AI Systems Builder',
