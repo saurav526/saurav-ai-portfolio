@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  ArrowUpRight,
+import {ArrowUpRight,
   Code2,
   GitFork,
   Github,
