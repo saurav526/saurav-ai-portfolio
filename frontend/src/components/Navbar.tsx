@@ -1,3 +1,4 @@
+// file: frontend/src/components/Navbar.tsx
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
