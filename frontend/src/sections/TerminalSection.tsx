@@ -3,7 +3,6 @@ import { Terminal as TerminalIcon, Play, RotateCcw } from 'lucide-react';
 import { PortfolioData } from '../types/portfolio';
 import { Tilt3DCard } from '../components/Tilt3DCard';
 import { Section3DBackdrop } from '../components/Section3DBackdrop';
-
 interface TerminalSectionProps {
   portfolio: PortfolioData;
 }
