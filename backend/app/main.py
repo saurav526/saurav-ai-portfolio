@@ -4,17 +4,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from app.api import (
-    routes_admin,
-    routes_chat,
-    routes_contact,
-    routes_github,
-    routes_portfolio,
-)
+from app.api import (routes_admin,routes_chat, routes_contact,routes_github,routes_portfolio)
 from app.core.config import settings
 from app.database.db import Base, SessionLocal, engine
 from app.database.seed import seed_database
-
+# main.py is the entry point for the FastAPI application, setting up the app instance, middleware, and routes. It includes a lifespan context manager to create database tables and seed initial data. The application serves API endpoints for portfolio management, AI assistant interactions, GitHub integration, contact handling, and admin dashboard functionalities. It also serves a compiled frontend SPA bundle if available.
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
