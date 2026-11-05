@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-
+// "ThreeBackground" component that renders a dynamic 3D neural network background with animated nodes and connections, adapting to different sections of the portfolio website.
 interface ThreeBackgroundProps {
   activeSection?: string;
   sceneMode?: 'auto' | 'sphere' | 'lattice' | 'helix' | 'torus';
