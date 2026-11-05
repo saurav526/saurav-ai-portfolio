@@ -27,7 +27,7 @@ interface ChatMessage {
 }
 
 const INITIAL_SUGGESTIONS = [
-  "Tell me about Saurav's 5 flagship AI projects",
+  "Tell me about Saurav's  flagship AI projects",
   'Explain the Clinical Risk & Patient Outcome Intelligence System',
   "What are Saurav's Generative AI and Agentic AI skills?",
   "Tell me about Saurav's Data Science Internship",
@@ -43,7 +43,7 @@ export const AIChatbotWidget: React.FC<AIChatbotWidgetProps> = ({
     {
       id: 'welcome',
       role: 'assistant',
-      content: `Hi! I'm **Saurav AI**, the grounded portfolio assistant for **${portfolio.profile.name}**. Ask me anything about his **5 flagship AI & ML projects**, **technical skills**, **EduSkills (AICTE & Siemens) internship**, **B.Tech education**, or **contact details**!`,
+      content: `Hi! I'm **Saurav AI**, the grounded portfolio assistant for **${portfolio.profile.name}**. Ask me anything about his  flagship AI & ML projects**, **technical skills**, **EduSkills (AICTE & Siemens) internship**, **B.Tech education**, or **contact details**!`,
       mode: 'verified_knowledge_engine',
       sources: ['Verified Resume', 'Portfolio Database'],
     },
