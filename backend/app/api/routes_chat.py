@@ -74,3 +74,5 @@ async def stream_chat_with_saurav_ai(
         yield f"data: {json.dumps({'type': 'done', 'mode': mode, 'sources': sources, 'suggested_followups': followups})}\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
+
+# Chat routes for interacting with the Saurav AI assistant, providing both synchronous and streaming responses for seamless conversation experiences.
