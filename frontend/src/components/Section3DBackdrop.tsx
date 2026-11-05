@@ -5,7 +5,6 @@ interface Section3DBackdropProps {
   variant?: 'neural' | 'cyber' | 'orbital' | 'matrix' | 'prism';
   accent?: 'violet' | 'cyan' | 'purple' | 'emerald';
 }
-
 export const Section3DBackdrop: React.FC<Section3DBackdropProps> = ({
   variant = 'orbital',
   accent = 'violet',
