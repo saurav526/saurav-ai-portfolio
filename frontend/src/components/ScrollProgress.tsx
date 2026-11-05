@@ -26,3 +26,4 @@ export const ScrollProgress: React.FC = () => {
     </div>
   );
 };
+// "ScrollProgress" component that displays a progress bar at the top of the page indicating how much of the page has been scrolled.
