@@ -203,3 +203,6 @@ def update_contact_status(
     db.commit()
     db.refresh(item)
     return item
+
+
+# Admin routes for managing the portfolio, including profile configuration, skills, projects, experiences, certifications, and contact submissions. Each route handles CRUD operations and returns appropriate responses or raises HTTP exceptions for error cases.
