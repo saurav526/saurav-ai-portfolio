@@ -18,7 +18,6 @@ import { Section3DBackdrop } from '../components/Section3DBackdrop';
 interface ContactSectionProps {
   profile: ProfileConfig;
 }
-
 export const ContactSection: React.FC<ContactSectionProps> = ({ profile }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
