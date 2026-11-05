@@ -8,7 +8,6 @@ interface ArchitectureDiagramProps {
   edges: ArchitectureEdge[];
   accentColor?: string;
 }
-
 export const ArchitectureDiagram: React.FC<ArchitectureDiagramProps> = ({
   nodes,
   edges,
