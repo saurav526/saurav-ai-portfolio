@@ -195,3 +195,5 @@ def execute_terminal_command(
         output=f"Command not recognized: '{cmd}'. Type 'help' to view available commands.",
         type="error",
     )
+
+# Portfolio routes for fetching and managing portfolio data, including profile configuration, skills, projects, experiences, and certifications. The routes provide endpoints for retrieving the full portfolio, listing projects and skills with optional filtering, and executing terminal-like commands to display portfolio information in a structured format.
