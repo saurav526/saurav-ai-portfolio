@@ -18,7 +18,6 @@ export interface ProfileConfig {
   availability_active: boolean;
   certifications_drive_url?: string;
 }
-
 export interface Skill {
   id: number;
   name: string;
