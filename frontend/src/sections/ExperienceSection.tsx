@@ -10,7 +10,6 @@ import {
 import { Experience } from '../types/portfolio';
 import { Tilt3DCard } from '../components/Tilt3DCard';
 import { Section3DBackdrop } from '../components/Section3DBackdrop';
-
 interface ExperienceSectionProps {
   experiences: Experience[];
 }
