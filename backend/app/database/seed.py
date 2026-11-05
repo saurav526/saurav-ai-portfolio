@@ -12,7 +12,6 @@ CERTIFICATIONS_DRIVE_LINK = (
     "https://drive.google.com/drive/folders/1izqhjM5cE3UkkPB9Ul8g8MvFZwVWpUuU?usp=sharing"
 )
 
-
 INITIAL_SKILLS = [
     # Programming
     {"name": "Python", "category": "Programming", "icon_name": "Code2", "description": "Primary language for ML pipelines, FastAPI services, and agentic systems"},
@@ -606,3 +605,6 @@ def seed_database(db: Session) -> None:
             db.add(Certification(**cert))
 
     db.commit()
+
+
+# Seed data for the portfolio application. This module populates the database with initial data for profiles, skills, experiences, projects, and certifications if they are not already present.
