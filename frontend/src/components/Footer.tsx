@@ -180,3 +180,5 @@ export const Footer: React.FC<FooterProps> = ({ profile }) => {
     </footer>
   );
 };
+
+// "<footer> component for the portfolio website"
