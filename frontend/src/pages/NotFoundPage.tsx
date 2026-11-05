@@ -29,3 +29,5 @@ export const NotFoundPage: React.FC = () => {
     </main>
   );
 };
+
+// "NotFoundPage" component that displays a 404 error message with a futuristic theme, indicating that the requested route does not exist in the portfolio architecture. It includes a link to return to the main portfolio page.
