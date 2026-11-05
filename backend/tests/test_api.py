@@ -12,7 +12,6 @@ if os.path.exists(_tmp_db):
 os.environ["DATABASE_URL"] = f"sqlite:///{_tmp_db}"
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 import pytest
 from fastapi import HTTPException
 from pydantic import ValidationError
