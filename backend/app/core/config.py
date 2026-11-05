@@ -5,7 +5,7 @@ load_dotenv()
 
 
 class Settings:
-    PROJECT_NAME: str = "Saurav Kumar — AI Engineer & Data Scientist Portfolio API"
+    PROJECT_NAME: str = "Saurav Kumar — Data Scientist & AI Engineer Portfolio API"
     VERSION: str = "2.0.0"
     DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./portfolio.db")
     GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
