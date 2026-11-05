@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 export const CustomCursor: React.FC = () => {
   const [pos, setPos] = useState({ x: -100, y: -100 });
   const [visible, setVisible] = useState(false);
