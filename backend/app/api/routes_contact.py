@@ -51,3 +51,5 @@ def submit_contact_form(
         delivery_mode=delivery_mode,
         mailto_fallback_url=mailto_url,
     )
+
+# Contact routes for handling contact form submissions, including spam protection via a honeypot field. The route processes the submission, attempts to send an email via SMTP or provides a mailto fallback, and stores the submission in the database. It returns a response indicating success, delivery mode, and any relevant messages or fallback URLs.
