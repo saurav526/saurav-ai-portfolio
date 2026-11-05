@@ -12,7 +12,6 @@ EmailType = Annotated[
     ),
 ]
 
-
 class ProfileConfigOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
