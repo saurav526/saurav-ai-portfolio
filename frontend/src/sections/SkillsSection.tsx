@@ -164,3 +164,5 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({ skills }) => {
     </section>
   );
 };
+
+// "SkillsSection" component that displays a categorized overview of technical skills, including programming, AI, frameworks, backend development, databases, cloud, and analytics. Each category shows the number of technologies associated with it and provides a brief description. The section features a 3D backdrop and interactive hover effects for an engaging user experience.
