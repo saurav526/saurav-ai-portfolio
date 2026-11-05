@@ -9,7 +9,6 @@ import { TerminalSection } from '../sections/TerminalSection';
 import { GitHubSection } from '../sections/GitHubSection';
 import { EducationCertificationsSection } from '../sections/EducationCertificationsSection';
 import { ContactSection } from '../sections/ContactSection';
-
 interface HomePageProps {
   portfolio: PortfolioData;
   onSectionChange: (sectionId: string) => void;
