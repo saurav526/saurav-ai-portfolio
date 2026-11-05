@@ -1,6 +1,5 @@
 import React from 'react';
-import {
-  Award,
+import {Award,
   BookOpen,
   Calendar,
   ExternalLink,
