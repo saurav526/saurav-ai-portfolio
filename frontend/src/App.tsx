@@ -106,3 +106,5 @@ export const App: React.FC = () => {
 };
 
 export default App;
+
+// "App" component that serves as the main entry point of the portfolio application. It manages global state, routing, and layout, including the 3D background, navigation bar, footer, and AI chatbot widget. The component fetches portfolio data from an API and updates the state accordingly. It also handles light/dark mode toggling and tracks the active section for dynamic background effects.
