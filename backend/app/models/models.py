@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from sqlalchemy import Boolean, Column, DateTime, Integer, JSON, String, Text
 from app.database.db import Base
 
-
+# this module defines the SQLAlchemy ORM models for the portfolio application, including ProfileConfig, Skill, Experience, Project, Certification, ContactSubmission, and ChatAuditLog. Each model corresponds to a database table and includes fields with appropriate data types and constraints. The utc_now function provides a consistent way to set timestamps in UTC for created_at and updated_at fields.
 def utc_now():
     return datetime.now(timezone.utc)
 
