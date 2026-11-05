@@ -1,5 +1,4 @@
 import React from 'react';
-
 export interface MotionProps extends React.HTMLAttributes<HTMLElement> {
   initial?: Record<string, unknown>;
   animate?: Record<string, unknown>;
